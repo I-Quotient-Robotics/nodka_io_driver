@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <node name="nodka_io_driver" pkg="nodka_io_driver" type="nodka_io_driver_node"  output="screen">
+    <param name="config_file" value="$(find nodka_io_driver)/config/NP-6122-H1/nkio_config.ini"/>
+  </node>
+
+</launch>

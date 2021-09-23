@@ -1,0 +1,6 @@
+KERNEL=="ttyS0", MODE:="0777", SYMLINK+="com0"
+KERNEL=="ttyS1", MODE:="0777", SYMLINK+="com1"
+KERNEL=="ttyS2", MODE:="0777", SYMLINK+="com2"
+KERNEL=="ttyS3", MODE:="0777", SYMLINK+="com3"
+KERNEL=="ttyS4", MODE:="0777", SYMLINK+="com4"
+KERNEL=="ttyS5", MODE:="0777", SYMLINK+="com5"
